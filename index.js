@@ -11,5 +11,5 @@ app.post('/login',routes);
 app.get('/success',routes);
 app.get('/logout',routes);
 app.post('/addmsg',routes);
-const port=process.env.PORT || 5000;
-app.listen(port,()=>(`Listening to the posrt ${port}`));
+const p=process.env.PORT || 5000;
+app.listen(port,()=>(`Listening to the posrt ${p}`));
